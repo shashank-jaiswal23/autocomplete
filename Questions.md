@@ -52,7 +52,8 @@ class Child extends React.Component{
 }
 
 export default Parent
-```
+
+````
 
 Way-2 -> Using context Api we can pass data from child to parents.
 Way-3 -> Using state management library like redux
@@ -104,7 +105,7 @@ function withSubscription(WrappedComponent, selectData) {
     }
   };
 }
-```
+````
 
 7.  they wait for each other. Await eliminates the use of callbacks in . ...
     In using async and await, async is prepended when returning a promise, await is
@@ -117,7 +118,7 @@ function withSubscription(WrappedComponent, selectData) {
     can possibly return the old value. The setState method takes up to 2 arguments.
     We usually pass in only one.
 
-9.      1) change
+9.       1) change
 
     class NameOfComponent extends Component
     to
