@@ -5,9 +5,7 @@
 
 3. Way -1
    ```javascript
-   import React from "react";
-   ```
-
+import React from "react"
 class Parent extends React.Component{
 constructor(props){
 super(props);
@@ -31,7 +29,8 @@ data: null
     }
 
 }
-
+```
+```javascript
 class Child extends React.Component{
 
     onTrigger = (event) => {
