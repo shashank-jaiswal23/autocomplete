@@ -1,6 +1,6 @@
 # Deel POC
 
-[Live project link](https://github.com/facebook/create-react-app).
+[Live project link](https://thirsty-leakey-89c19a.netlify.app/).
 
 ## Available Scripts
 
