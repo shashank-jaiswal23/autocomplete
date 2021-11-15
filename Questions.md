@@ -58,8 +58,10 @@ export default Parent
 Way-2 -> Using context Api we can pass data from child to parents.
 Way-3 -> Using state management library like redux
 
+
 4. Use React.memo() to prevent re-rendering on React function components.
    shouldComponentUpdate() for the class component
+
 
 5. Fragments are a modern syntax for adding multiple elements to a React Component without
    wrapping them in an extra DOM node.
@@ -118,7 +120,7 @@ function withSubscription(WrappedComponent, selectData) {
     can possibly return the old value. The setState method takes up to 2 arguments.
     We usually pass in only one.
 
-9.       1) change
+9.        1) change
 
     class NameOfComponent extends Component
     to
